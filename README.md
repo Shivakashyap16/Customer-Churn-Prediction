@@ -161,13 +161,11 @@ streamlit run dashboard/app.py
 
 # 🖼️ Dashboard Screenshots
 
-Add your dashboard screenshots below:
+<img width="1491" height="780" alt="Screenshot (7)" src="https://github.com/user-attachments/assets/11ce5c38-d94c-4983-916b-f7b60eb54ec4" />
 
-![Customer Churn Dashboard](ADD_YOUR_SCREENSHOT_LINK_HERE)
+<img width="1466" height="786" alt="Screenshot (8)" src="https://github.com/user-attachments/assets/0ec4ea39-66c3-43dc-89f7-7367b9912894" />
 
-![Household Risk Analysis](ADD_YOUR_SCREENSHOT_LINK_HERE)
-
-![Model Evaluation](ADD_YOUR_SCREENSHOT_LINK_HERE)
+<img width="1459" height="775" alt="Screenshot (9)" src="https://github.com/user-attachments/assets/68683949-9a4f-4f03-b64f-430d43e69c9b" />
 
 # 📈 Model Performance
 
@@ -223,13 +221,3 @@ Customer-Churn-Prediction/
 ├── requirements.txt
 └── .gitignore
 ```
-
-# 📌 Project Notes
-
-- Churn is defined as a household making no purchases during the 90-day prediction window (days 622–711).
-- Household purchasing features are calculated using transaction history up to day 621.
-- The project uses historical household purchasing behavior to estimate churn probability.
-- Risk categories are dashboard groupings: Low (≤30%), Medium (>30% to 60%), and High (>60%).
-- The dashboard scores the full historical dataset for exploration. These predictions should not be confused with the held-out test evaluation.
-- The original dataset, processed dataset, and trained model are not included in this repository. Users must download the dataset and generate the processed data and model by following the setup instructions.
-- Predictions are intended for analytical and educational purposes and should not be treated as validated business retention decisions.

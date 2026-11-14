@@ -1,0 +1,41 @@
+# Python environment
+.venv/
+venv/
+env/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Raw datasets - never upload original datasets
+data/raw/*
+
+# Processed datasets - never upload generated datasets
+data/processed/*
+
+# Generated model files
+models/*
+
+# Keep required model evaluation results
+!models/test_metrics.json
+
+# Local environment settings and secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Dataset archives
+*.zip
